@@ -5,7 +5,7 @@ Hello Everyone , This is Android application which i build when i at senior high
 - > DATABASE : FIREBASE
 - > PROGRAMMING LANGUAGES : JAVA
 - > ADS : ADMOB
-- > LINK DOWNLOAD APLICATION : https://drive.google.com/file/d/11H-Hlp5YnJOimmv__RtOMN34sp9O9l1n/view?usp=sharing
+- > LINK DOWNLOAD APPLICATION : https://drive.google.com/file/d/11H-Hlp5YnJOimmv__RtOMN34sp9O9l1n/view?usp=sharing
 
 you can try this application.
 if you want to contact me
