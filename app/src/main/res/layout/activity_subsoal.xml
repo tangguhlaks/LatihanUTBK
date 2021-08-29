@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.Subsoal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/soalsub"
+            android:fontFamily="sans-serif-light"
+            android:textSize="25dp"
+            android:text="soalsub"
+            android:gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rcviewsub"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7acbcd"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="Tambah Sub Soal"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/tambahsubsoal"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

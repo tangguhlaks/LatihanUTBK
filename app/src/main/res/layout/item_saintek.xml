@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/card_saintek"
+    android:backgroundTint="#7acbcd"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soal"
+            android:id="@+id/tv_soal"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soal"
+            android:id="@+id/tv_jenissoal"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soal"
+            android:id="@+id/tv_statussoal"
+            android:padding="5dp"
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    >
+    <ImageButton
+        android:id="@+id/tbl_subsaintek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sub"/>
+    <ImageButton
+        android:id="@+id/tbl_editsaintek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"/>
+    <ImageButton
+        android:id="@+id/tbl_hapussaintek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"/>
+</LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441583026274",
+    "project_id": "tesutbk",
+    "storage_bucket": "tesutbk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441583026274:android:478a2c487fbb08c1a4113b",
+        "android_client_info": {
+          "package_name": "com.example.tesutbk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441583026274-kef8ishbfmc959i2c6g1pq8vvodomi7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1L68Mv7y-KoFySB04PwZLwYBpXgEtkQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441583026274-kef8ishbfmc959i2c6g1pq8vvodomi7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
